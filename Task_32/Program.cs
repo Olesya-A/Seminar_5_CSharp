@@ -31,7 +31,7 @@ int[] CreateChangedArray(int[] numbers)
     int size = numbers.Length;
     for (int i = 0; i < size; i++)
     {
-        numbers[i] = numbers[i]*(-1);
+        numbers[i] = -numbers[i];
     }
     return numbers;
 }
